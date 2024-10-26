@@ -1,4 +1,4 @@
-# machinelearning cheat sheet
+# machine learning cheat sheet
 
 
 # GPU
