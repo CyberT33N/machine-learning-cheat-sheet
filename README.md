@@ -1,6 +1,42 @@
 # machine learning cheat sheet
 
 
+
+
+# WIKI
+
+<br>
+
+### Difference Between Fine-Tuning and LoRA in OneTrainer
+
+- **Fine-Tuning:**
+  - **Process:** Adjusts all or most weights of a pre-trained model on a specific dataset.
+  - **Storage:** Requires more space as the entire model is updated and stored.
+  - **Flexibility:** Offers deeper customization, leveraging the full knowledge of the model.
+  - **Compute:** More resource-intensive and time-consuming, especially for large models.
+
+- **LoRA (Low-Rank Adaptation):**
+  - **Process:** Introduces and trains additional low-rank parameters while keeping original weights frozen.
+  - **Storage:** Needs less space as only the new parameters are saved.
+  - **Flexibility:** Allows targeted adjustments without risking overfitting.
+  - **Compute:** Less resource-intensive, making it faster and more efficient.
+
+**Conclusion:** Use fine-tuning for comprehensive model adaptation when resources allow, and LoRA for quicker, resource-efficient adjustments.
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+
 # GPU
 - https://cloud.google.com/compute/gpus-pricing#gpu-pricing
 
