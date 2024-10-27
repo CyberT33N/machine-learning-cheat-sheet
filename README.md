@@ -5,9 +5,11 @@
 
 # WIKI
 
-<br>
+<details><summary>Click to expand..</summary>
+  
+<br><br>
 
-### Difference Between Fine-Tuning and LoRA in OneTrainer
+## Difference Between Fine-Tuning and LoRA in OneTrainer
 
 - **Fine-Tuning:**
   - **Process:** Adjusts all or most weights of a pre-trained model on a specific dataset.
@@ -37,10 +39,10 @@
 
 
 
-# GPU
+## GPU
 - https://cloud.google.com/compute/gpus-pricing#gpu-pricing
 
-## Using Consumer GPUs for Deep Learning
+### Using Consumer GPUs for Deep Learning
 ```
 While consumer GPUs are not suitable for large-scale deep learning projects, these processors can provide a good entry point for deep learning. Consumer GPUs can also be a cheaper supplement for less complex tasks, such as model planning or low-level testing. However, as you scale up, you’ll want to consider data center grade GPUs and high-end deep learning systems like NVIDIA’s DGX series (learn more in the following sections).
 
@@ -65,7 +67,7 @@ The GeForce RTX 2080 Ti is a PC GPU designed for enthusiasts. It is based on the
 
 <br><br>
 
-### Best Deep Learning GPUs for Large-Scale Projects and Data Centers
+#### Best Deep Learning GPUs for Large-Scale Projects and Data Centers
 ```
 The following are GPUs recommended for use in large-scale AI projects.
 
@@ -95,14 +97,29 @@ Each TPU can provide up to 420 teraflops of performance and 128 GB high bandwidt
 
 Learn more in our guide about TensorFlow GPUs.
 ```
+</details>
 
 
 
 
 
-## Setup
 
-### Ubuntu 23.04
+
+
+
+
+<br><br>
+<br><br>
+--- 
+<br><br>
+<br><br>
+
+
+# Setup
+
+<br><br>
+
+## Ubuntu 23.04
 - You need a GPU with more than 4GB RAM. In my case 1050 TI was not enough..
 ```shell
 # 1. ----- Install nvidia driver - https://github.com/CyberT33N/linux-cheat-sheet/blob/main/README.md#install--update ----- 
@@ -145,7 +162,10 @@ python -c "import torch;print(torch.cuda.is_available())"
 <br><br>
 
 
-# gcloud - compute engine
+## gcloud - compute engine
+
+<details><summary>Click to expand..</summary>
+  
 - **Make always sure to suspend your VM if you do not use it to not waste money**
 
 ### guide
@@ -245,5 +265,54 @@ gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deep
 ### c) Jupyter Notebook
 - http://localhost:8080/
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+---
+<br><br>
+<br><br>
+
+# Training
+
+
+
+<br><br>
+
+## Software
+
+<br><br>
+
+### Kohya_ss
+
+<br><br>
+
+#### Guides
+- https://www.patreon.com/posts/full-workflow-sd-98620163
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+### OneTrainer
+- https://github.com/CyberT33N/onetrainer-cheat-sheet/blob/main/README.md
 
 
