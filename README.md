@@ -289,18 +289,40 @@ gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deep
 # Training
 
 
+<br><br>
+<br><br>
+
+## Image Models
 
 <br><br>
 
-## Software
+### Dataset
+- In order to achieve good results when training your new checkpoint you should consider following things:
+  - Different face expressions
+  - Sharp images, with good natural lightning, not blurry and high resolution
+  - Different background
+  - Different clothes
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+### Software
 
 <br><br>
 
-### Kohya_ss
+#### Kohya_ss
 
 <br><br>
 
-#### Guides
+##### Guides
 - https://www.patreon.com/posts/full-workflow-sd-98620163
 
 
@@ -312,7 +334,7 @@ gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deep
 <br><br>
 
 
-### OneTrainer
+#### OneTrainer
 - https://github.com/CyberT33N/onetrainer-cheat-sheet/blob/main/README.md
 
 
