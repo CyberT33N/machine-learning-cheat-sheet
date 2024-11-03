@@ -298,10 +298,11 @@ gcloud compute ssh --project deep-learning-tests-411921 --zone asia-east1-c deep
 
 ### Dataset
 - In order to achieve good results when training your new checkpoint you should consider following things:
-  - Different face expressions
+  - Different face expressions (smile, normal looking, ..)
   - Sharp images, with good natural lightning, not blurry and high resolution
   - Different background
   - Different clothes
+  - Different zooms (fully body shot, head shot, ...)
 
 
 
